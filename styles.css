@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(219, 221, 225);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner{
+    padding: 10px;
+}
+
+.banner a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav{
+    padding: 10px 20px;
+}
+nav a{
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transform: 1s;
+    color: black;
+}
+nav a:hover{
+    background-color: goldenrod;
+    color: black;
+    border-radius: 20px 0px 20px 0px;
+    transition: 0.5s;
+}
+
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("soju.png");
+}
+.containerHome{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+    color: green;
+}
+h1.judulHome{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.deskripsiHome{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+section.project img{
+    height: 300px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+
+section.howto{
+    height: 640px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cardProfile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgProfile.img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
